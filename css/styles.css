@@ -5,3 +5,9 @@ body {
 #ruby, #cSharp, #css {
   display: none;
 }
+
+img {
+  height: 50px;
+  width: 50px
+
+}

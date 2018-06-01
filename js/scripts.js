@@ -8,13 +8,15 @@ $(document).ready(function() {
 
     // var question1 = parseInt($("input:radio[name=question1]:checked").val());
     // var question2 = parseInt($("input:radio[name=question2]:checked").val());
-    if (age) {
-        } else {
-          alert('Please enter your age.');
-        }
 
+    if (age) {
+            } else {
+              alert('Please enter your age.');
+            }
     var question1 = parseInt($("#rate").val());
     var question2 = parseInt($("#rate2").val());
+
+
     var total = question1 + question2;
 
 
@@ -34,10 +36,10 @@ $(document).ready(function() {
         $("#ruby").hide();
         $("#css").hide();
         $("#cSharp").show();
-    }
+      }
 
 
 
 
-  });
-});
+      });
+    });
