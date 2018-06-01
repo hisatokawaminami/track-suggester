@@ -1,239 +1,170 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Track Suggester</title>
-</head>
-<body class="container-fluid">
-  <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <h1>Track Suggester</h1>
-            <p>Wondering what proggraming language to you should learn?</br></br>
-            Not to worry! Take a quick survey here and get help picking up a language based
-            on the answer!</p>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Suggester</title>
+  </head>
+  <body class="container-fluid">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h1>Track Suggester</h1>
+         <p>Wondering what proggraming language to you should learn?</br></br>
+          Not to worry! Take a quick survey here and get help picking up a language based
+          on the answer!</p>
 
-            <h2>Let's get started!</h2></br>
-      <form id="formOne">
-        <!-- name -->
-        <div class="form-group">
-          <label for="yourName">Your Name</label>
-          <input id="yourName" class="form-control" type="text">
-        </div>
-        <!-- name -->
-<!-- age -->
-        <div class="form-group">
-                    <label for="age">Age</label>
-                    <input id="age" class="form-control" type="number">
-                  </div>
-<!-- age -->
+        <h2>Let's get started!</h2></br>
 
-        <!-- radio buttons -->
-                  <div class="radio">
-                  <br/><p><strong>Gender</strong></p>
-                    <label for="gender">
-                      <input type="radio" name="gender" value="male" checked>
-                      Male
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="gender" value="female">
-                      Female
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="gender" value="other">
-                    Other
-                    </label>
-                  </div>
-                  <!-- radio buttons -->
+        <form id="formOne">
 
-                  <!-- radio buttons -->
-                  <div class="radio">
-                  </br><p><strong>PC or Mac?</strong></p>
-                    <label for="computerType">
-                      <input type="radio" name="computerType" value="pc" checked>
-                      PC
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="computerType" value="mac">
-                      Mac
-                    </label>
-                  </div>
-                  <!-- radio buttons -->
-
-
-                  <!-- radio buttons -->
-                            <!-- <div class="radio">
-                            <br/><p><strong>Q1</strong></p>
-                              <label for="question1">
-                                <input type="radio" name="question1" value="1" checked>
-                                Male
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="question1" value="2">
-                                Female
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="question1" value="3">
-                              Other
-                              </label>
-                            </div> -->
-                  <!-- radio buttons --><!-- radio buttons -->
-                            <!-- <div class="radio">
-                            <br/><p><strong>Q2</strong></p>
-                              <label for="question2">
-                                <input type="radio" name="question2" value="1" checked>
-                                Male
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="question2" value="2">
-                                Female
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="question2" value="3">
-                              Other
-                              </label>
-                            </div> -->
-                            <!-- radio buttons -->
-
-
-
-
-
-                  <!-- drop box 1 -->
+<!-- name -->
           <div class="form-group">
-      <br/><label for="rate">Example select</label>
-      <select class="form-control" id="rate">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
+            <label for="yourName">Your Name</label>
+            <input id="yourName" class="form-control" type="text">
+          </div>
+<!-- name -->
 
-      </select>
-      </br>
-      </div>
-      <!-- drop box 1 -->
+<!-- age -->
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input id="age" class="form-control" type="number">
+          </div>
+<!-- age -->
 
-      <!-- drop box 2 -->
-<div class="form-group">
-<br/><label for="exampleFormControlSelect1">Example select</label>
-<select class="form-control" id="rate2">
-<option value="1a">1</option>
-<option value="2a">2</option>
-<option value="3a">3</option>
-</select>
-</br>
-</div>
+<!-- radio buttons -->
+          <div class="radio"><br/>
+            <p><strong>Gender</strong></p>
+            <label for="gender">
+              <input type="radio" name="gender" value="male" checked>Male</label>
+          </div>
+          <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="female">Female</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gender" value="other">Other</label>
+          </div>
+<!-- radio buttons -->
+
+<!-- radio buttons 2 -->
+          <div class="radio"></br>
+            <p><strong>PC or Mac?</strong></p>
+            <label for="computerType">
+              <input type="radio" name="computerType" value="pc" checked>PC</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="computerType" value="mac">Mac</label>
+          </div>
+<!-- radio buttons 2-->
+
+<!-- drop box 1 -->
+            <div class="form-group"><br/>
+              <label for="rate">Example select</label>
+                <select class="form-control" id="rate">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select></br>
+            </div>
+<!-- drop box 1 -->
+
+<!-- drop box 2 -->
+            <div class="form-group"><br/>
+              <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="rate2">
+                  <option value="1a">1</option>
+                  <option value="2a">2</option>
+                  <option value="3a">3</option>
+                </select></br>
+            </div>
 <!-- drop box 2 -->
 
 <!-- drop box3 -->
-<!-- <div class="form-group">
-<br/><label for="exampleFormControlSelect1">Example select</label>
-<select class="form-control" id="exampleFormControlSelect1">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-</select>
-</br>
-</div> -->
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>  </br>
+            </div>
 <!-- drop box 3 -->
 
 <!-- drop box 4 -->
-<!-- <div class="form-group">
-<br/><label for="exampleFormControlSelect1">Example select</label>
-<select class="form-control" id="exampleFormControlSelect1">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-</select>
-</br>
-</div> -->
+            <div class="form-group"><br/>
+              <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select></br>
+            </div>
 <!-- drop box 4 -->
 
+<!-- submitt button -->
+          <button type="submit" class="btn">Show Me!</button>
+<!-- submitt button -->
+
+        </form>
 
 
+<!-- suggest RUBY -->
+            <div id="ruby">
+              <div class="row well">
+                <h2>Our Suggestion</h2>
+                  <p>Thank you for taking this suervey <strong><span class="yourName"></strong></span>!</p>
+                  <img src="" alt="ruby logo">
+                  <p><a href=https://en.wikipedia.org/wiki/Ruby_(programming_language)>Ruby</a> 
+                    is a favorite language of developers building interactive
+                    web applications. If an app involves users creating accounts,
+                    entering information, and interacting with dynamic content,
+                    there's a good chance it is built with Ruby. Ruby became popular
+                    because the Rails framework, which is written with Ruby,
+                    simplified many of the common tasks associated with
+                    building web applications. It's most popular with startups and
+                    smaller companies who are looking to build their product quickly.</p>
+              </div>
+            </div>
+<!-- suggest RUBY -->
+<!-- suggest CSS -->
+            <div id="css">
+              <img src="" alt="css logo">
+              <p><a href=https://en.wikipedia.org/wiki/Cascading_Style_Sheets>CSS</a>
+                is the language for describing the presentation of Web pages,
+                including colors, layout, fonts, and other stylistic choices.
+                It allows one to adapt the presentation to different types of devices,
+                such as large screens, small screens, and printers. HTML — used for
+                building the structure of the page — and CSS — used for the
+                visual layout — are the two basic languages involved in the building of
+                web pages and web applications.
+              </p>
+            </div>
+<!-- suggest CSS -->
 
+<!-- suggeset C# -->
+            <div id="cSharp">
+              <img src="" alt="c# logo">
+              <p><a href=https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>C#</a> 
+                is most popular among bigger established businesses, often for building
+                internal software. Because it's been around for a long time and
+                has the backing of Microsoft, it is one of the most in-demand languages
+                in the job market. C# has also been going through a bit of a rebirth
+                lately, with Microsoft open sourcing the language and surrounding platform,
+                porting it to run on Mac and Linux, and incorporating many of the
+                best features of other languages. If you like the idea of working for
+                a larger company on business software, C# is a great choice.
+              </p>
+            </div>
+<!-- suggeset C# -->
 
-        <!-- submitt button -->
-        <button type="submit" class="btn">Show Me!</button>
-      </form>
-      <!-- submitt button -->
-
-
-      <!-- suggest RUBY -->
-
-      <div id="ruby">
-        <div class="row well">
-          <h2>Our Suggestion</h2>
-          <p>Thank you for taking this suervey <strong><span class="yourName"></strong></span>!</p>
-          <img src="" alt="ruby logo">
-          <p><a href=https://en.wikipedia.org/wiki/Ruby_(programming_language)>Ruby</a> 
-            is a favorite language of developers building interactive
-            web applications. If an app involves users creating accounts,
-            entering information, and interacting with dynamic content,
-            there's a good chance it is built with Ruby. Ruby became popular
-            because the Rails framework, which is written with Ruby,
-            simplified many of the common tasks associated with
-            building web applications. It's most popular with startups and
-            smaller companies who are looking to build their product quickly.</p>
-          </div>
-
-    </div>
-    <!-- suggest RUBY -->
-    <!-- suggest CSS -->
-        <div id="css">
-          <img src="" alt="css logo">
-          <p><a href=https://en.wikipedia.org/wiki/Cascading_Style_Sheets>CSS</a>
-            is the language for describing the presentation of Web pages,
-            including colors, layout, fonts, and other stylistic choices.
-            It allows one to adapt the presentation to different types of devices,
-            such as large screens, small screens, and printers. HTML — used for
-            building the structure of the page — and CSS — used for the
-            visual layout — are the two basic languages involved in the building of
-            web pages and web applications.
-        </p>
-        </div>
-        <!-- suggest CSS -->
-
-        <!-- suggeset C# -->
-        <div id="cSharp">
-          <img src="" alt="c# logo">
-          <p><a href=https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>C#</a> 
-            is most popular among bigger established businesses, often for building
-            internal software. Because it's been around for a long time and
-            has the backing of Microsoft, it is one of the most in-demand languages
-            in the job market. C# has also been going through a bit of a rebirth
-            lately, with Microsoft open sourcing the language and surrounding platform,
-            porting it to run on Mac and Linux, and incorporating many of the
-            best features of other languages. If you like the idea of working for
-            a larger company on business software, C# is a great choice.
-          </p>
-        </div>
-
-        </div>
-        <!-- suggeset C# -->
+      </div>
     </div>
   </div>
-</div>
-</body>
-</html>
+  </body>
+  </html>
