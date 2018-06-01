@@ -1,3 +1,7 @@
 body {
-  background-color: lightblue;ß
+  background-color: lightblue;
+}
+
+#ruby, #cSharp, #css {
+  display: none;
 }
