@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(".yourName").text(yourName);
 
 
-    $("#ruby").show();
+    $("#ruby, #cSharp, #css").show();
 
   });
 });
