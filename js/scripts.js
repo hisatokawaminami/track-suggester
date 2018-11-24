@@ -15,26 +15,26 @@ $(document).ready(function() {
             }
     var question1 = parseInt($("#rate").val());
     var question2 = parseInt($("#rate2").val());
-    var question3 = parseInt($("#rate2").val());
+    var question3 = parseInt($("#rate3").val());
 
-    var total = question1;
+    var total = question1 + question2 + question3;
 
     $(".yourName").text(yourName);
 
 
+ console.log(total);
 
-
-    if (total === 1) {
+    if (total < 5) {
         $("#ruby").show();
         $("#css").hide();
         $("#cSharp").show();
     }
-    else if (total === 2) {
+    else if (total >= 5 && total <= 7) {
         $("#ruby").hide();
         $("#css").show();
         $("#cSharp").hide();
     }
-    else if (total === 3) {
+    else  {
         $("#ruby").hide();
         $("#css").hide();
         $("#cSharp").show();
